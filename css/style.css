@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', serif;
+    box-sizing: border-box;    
+}
+
+header {
+    background-color: white;
+    height: 40px;
+    padding: 20px;
+    }
+
+#main-logo {
+vertical-align: middle;
+}
+
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+    }
+
+    
