@@ -1,14 +1,19 @@
 *{
     margin: 0;
+    padding: 0;
     font-family: 'Roboto', serif;
     box-sizing: border-box;    
 }
 
 header {
     background-color: white;
-    height: 40px;
-    padding: 20px;
+    height: 80px;
+    padding: 15px;
     }
+
+body {
+    background-color: #3c6fdd;
+    }    
 
 #main-logo {
 vertical-align: middle;
@@ -20,4 +25,128 @@ h1 {
     vertical-align: middle;
     }
 
+.first-one {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 50px;
+}
+
+#blue {
+    background-color: #47adf1;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    border-color: #47adf1;
+    margin-left: 40px;
+}
+
+#lightgray {
+    background-color: white;
+    border-radius: 5px;
+    color: #9b9999;
+    padding: 5px 10px;
+    border-color: #9b9999;
+}
+
+.second-one {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px 60px;
+    margin-top: 2px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     
+}
+
+.down-arrow::before{
+    content: '\25BC';
+    color: #494646 ;
+}
+
+h2 {
+    display: inline-block;
+    color: #494646;
+}
+
+ul{
+    padding-bottom: 20px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 18px;
+    padding: 15px 25px;
+     }
+
+.task-status-green {
+    display: inline-block;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: 2px solid green;
+    font-size: 13px;
+    line-height: 15px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.task-status-red {
+    display: inline-block;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: 2px solid red;
+    font-size: 13px;
+    line-height: 15px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+ .visto {
+    color: green;
+ }   
+
+ .cross{
+    color: red;
+ }
+   
+.task-text{
+    vertical-align: middle;
+}
+   
+
+.label {
+    color: white;
+    border-radius: 25px;
+    font-size:12px ;
+    padding: 10px 15px;
+}
+    
+.cyan {
+    background-color: #45abea;
+}
+.violet {
+    background-color: violet;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.pink{
+    background-color: palevioletred;
+}
+
+.lime{
+    background-color: limegreen;
+}
